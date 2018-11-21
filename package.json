@@ -1,11 +1,11 @@
 {
   "name": "react-native-multi-slider",
-  "version": "2.0.0",
+  "version": "0.0.13",
   "description": "Android and iOS supported pure JS slider component with multiple markers for React Native",
   "main": "MultiSlider.js",
   "scripts": {
     "prettier": "prettier --single-quote --trailing-comma all --bracket-spacing --write \"**/*.js\""
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ptomasroos/react-native-multi-slider.git"
@@ -26,14 +26,14 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
-    }  
+    }
   },
   "lint-staged": {
     "*.js": [
       "./node_modules/.bin/prettier --single-quote --trailing-comma all --bracket-spacing --write",
       "git add"
     ]
-  },  
+  },
   "author": "Tomas Roos <ptomasroos@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
